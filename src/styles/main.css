@@ -1,0 +1,29 @@
+#board {
+  display: flex;
+}
+
+.gameboards {
+  width: 50%;
+  height: 70%;
+  margin: 10px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.row {
+  border: 1px solid black;
+  display: flex;
+}
+
+.cell {
+  border: 1px solid black;
+  padding: 3%;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
