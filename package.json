@@ -7,7 +7,8 @@
     "build": "webpack",
     "test": "jest",
     "test-watch": "jest --watch *.js",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "testc": "jest --coverage"
   },
   "keywords": [],
   "author": "",
