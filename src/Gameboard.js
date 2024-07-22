@@ -217,7 +217,7 @@ export class Gameboard {
 
   areAllShipsSunk() {
     for (let i = 0; i < this.shipDimensions.length; i++) {
-      if (!isSunk(this.shipDimensions[i])) {
+      if (!this.shipClassInstance.isSunk(this.shipDimensions[i])) {
         return false;
       }
     }
